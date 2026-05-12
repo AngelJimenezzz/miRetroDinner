@@ -1,159 +1,118 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<title>Blog - Retro Diner</title>
 	<meta charset="utf-8">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<style>:focus-visible { outline: 3px solid #2a9d8f !important; outline-offset: 2px; }</style>
 </head>
 <body>
-    <a href="#body" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">Saltar al contenido principal</a>
+    <a href="#body" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">Skip to main content</a>
     <h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">Blog - Retro Diner</h1>
 
-	<div id="header">
+    <header id="header">
 		<div>
             <a href="index.html">
                 <img class="logo" src="images/logo.png" width="513" height="84" alt="Logotipo de Retro Diner">
                 <img src="images/waitress.png" width="332" height="205" alt="">
             </a>
-			<ul class="navigation">
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="about.html">About</a>
-				</li>
-				<li>
-					<a href="burger.html">Menu</a>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
-				<li>
-					<a class="active" href="blog.html">Blog</a>
-				</li>
-			</ul>
+            <nav aria-label="Main Navigation">
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="burger.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a class="active" href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
 		</div>
-	</div>
-	<div id="body">
+	</header>
+
+    <main id="body">
 		<div id="section">
 			<div class="section">
 				<div>
 					<div> 
-                        <a href="blog.html" aria-hidden="true" tabindex="-1"><img src="images/breakfast3.jpg" width="169" height="163" alt="Promoción All You Can Eat"></a>
+                        <a href="blog.html"><img src="images/breakfast3.jpg" width="169" height="163" alt="Promoción All You Can Eat"></a>
 						<h2><a href="blog.html">All YOU CAN EAT</a></h2>
 						<h3>Posted by <a href="#">Sheila</a> in</h3>
-                        <a href="blog.html" aria-hidden="true" tabindex="-1"><span>Promos,</span></a> 
-                        <a href="blog.html" aria-hidden="true" tabindex="-1"><span>Weekends,</span></a> 
-                        <a href="blog.html" aria-hidden="true" tabindex="-1"><span>Breakfast</span></a>
+                        <a href="blog.html"><span>Promos,</span></a> 
+                        <a href="blog.html"><span>Weekends,</span></a> 
+                        <a href="blog.html"><span>Breakfast</span></a>
 						<p>
 							Weekends at Retro Diner have a way of turning into something special.
 							It starts with the smell of fresh breakfast on the grill and ends with plates you never quite want to empty.
 							Our All You Can Eat specials bring people together over good food and even better moments.
 							Here’s a look at the promos, flavors, and traditions that make it all worth it.
 						</p>
-						<a href="blog.html" class="price" aria-hidden="true" tabindex="-1">Jan <span>31st</span></a> 
+						<a href="blog.html" class="price">Jan <span>31st</span></a> 
                     </div>
 				</div>
 			</div>
 			<div class="section">
 				<div>
 					<div> 
-                        <a href="blog.html" aria-hidden="true" tabindex="-1"><img src="images/shakes2.jpg" width="169" height="163" alt="Especial Love Day"></a>
+                        <a href="blog.html"><img src="images/shakes2.jpg" width="169" height="163" alt="Especial Love Day"></a>
 						<h2><a href="blog.html">love day</a></h2>
 						<h3>Posted by Sheila in</h3>
-						<a href="blog.html" aria-hidden="true" tabindex="-1"><span>Promos,</span></a> 
-                        <a href="blog.html" aria-hidden="true" tabindex="-1"><span>Weekends,</span></a> 
-                        <a href="blog.html" aria-hidden="true" tabindex="-1"><span>Breakfast</span></a>
+						<a href="blog.html"><span>Promos,</span></a> 
+                        <a href="blog.html"><span>Weekends,</span></a> 
+                        <a href="blog.html"><span>Breakfast</span></a>
 						<p>
 							Love Day at Retro Diner is all about sharing simple moments.
 							From sweet milkshakes to cozy booths, every detail sets the mood.
 							Couples, friends, and families gather to celebrate over classic favorites.
 							It’s a day filled with warmth, flavor, and a little extra love.
 						</p>
-						<a href="blog.html" class="price" aria-hidden="true" tabindex="-1">Feb <span>1st</span></a> 
+						<a href="blog.html" class="price">Feb <span>1st</span></a> 
                     </div>
 				</div>
 			</div>
 		</div>
 		<div class="sidebar">
-			<h1>Recent Posts</h1>
+			<h2>Recent Posts</h2>
 			<ul>
-				<li class="first">
-					<a href="blog.html">All You Can Eat Breakfast Everyday</a>
-				</li>
-				<li>
-					<a href="blog.html">Love Day Buy 2 Large Shakes Get 1 Free</a>
-				</li>
-				<li>
-					<a href="blog.html">Super Duper Burger New Year With Free Extra Topping</a>
-				</li>
-				<li>
-					<a href="blog.html">Free Membership Card From Star Roller Skates</a>
-				</li>
-				<li>
-					<a href="blog.html">Free Retro Diner Tumbler For Every Burger Special Order</a>
-				</li>
+				<li class="first"><a href="blog.html">All You Can Eat Breakfast Everyday</a></li>
+				<li><a href="blog.html">Love Day Buy 2 Large Shakes Get 1 Free</a></li>
+				<li><a href="blog.html">Super Duper Burger New Year With Free Extra Topping</a></li>
+				<li><a href="blog.html">Free Membership Card From Star Roller Skates</a></li>
+				<li><a href="blog.html">Free Retro Diner Tumbler For Every Burger Special Order</a></li>
 			</ul>
-			<h1>Categories</h1>
+			<h2>Categories</h2>
 			<ul>
-				<li class="first">
-					<a href="blog.html">Promos</a>
-				</li>
-				<li>
-					<a href="blog.html">Weekends</a>
-				</li>
-				<li>
-					<a href="blog.html">Breakfast</a>
-				</li>
-				<li>
-					<a href="blog.html">Events</a>
-				</li>
-				<li>
-					<a href="blog.html">Valentines</a>
-				</li>
-				<li>
-					<a href="blog.html">Christmas</a>
-				</li>
-				<li class="last">
-					<a href="blog.html">2026</a>
-				</li>
+				<li class="first"><a href="blog.html">Promos</a></li>
+				<li><a href="blog.html">Weekends</a></li>
+				<li><a href="blog.html">Breakfast</a></li>
+				<li><a href="blog.html">Events</a></li>
+				<li><a href="blog.html">Valentines</a></li>
+				<li><a href="blog.html">Christmas</a></li>
+				<li class="last"><a href="blog.html">2026</a></li>
 			</ul>
 		</div>
-	</div>
-	<div id="footer">
+	</main>
+
+    <footer id="footer">
 		<div>
 			<ul>
 				<li class="first">
 					<h2>Delivery Hotline</h2>
 					<h3>Call 0-123-456-789</h3>
 					<ul>
-						<li>
-							<a href="http://www.freewebsitetemplates.com/go/facebook" class="facebook" aria-label="Facebook"></a>
-						</li>
-						<li>
-							<a href="http://www.freewebsitetemplates.com/go/twitter" class="twitter" aria-label="Twitter"></a>
-						</li>
-						<li>
-							<a href="http://www.freewebsitetemplates.com/go/googleplus" class="googleplus" aria-label="Google Plus"></a>
-						</li>
+						<li><a href="http://www.freewebsitetemplates.com/go/facebook" class="facebook" aria-label="Facebook"></a></li>
+						<li><a href="http://www.freewebsitetemplates.com/go/twitter" class="twitter" aria-label="Twitter"></a></li>
+						<li><a href="http://www.freewebsitetemplates.com/go/googleplus" class="googleplus" aria-label="Google Plus"></a></li>
 					</ul>
 				</li>
 				<li>
 					<a href="index.html"><img class="logo" src="images/logo-footer.png" alt="Retro Diner"></a>
-					<ul class="navigation">
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="about.html">About Us</a>
-						</li>
-						<li>
-							<a href="burger.html">Menu</a>
-						</li>
-						<li>
-							<a href="contact.html">Contact Us</a>
-						</li>
-					</ul>
+                    <nav aria-label="Footer Navigation">
+                        <ul class="navigation">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="burger.html">Menu</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
 					<span>&copy; 2026 RetroDiner.com. All Rights Reserved</span>
 				</li>
 				<li class="last">
@@ -165,6 +124,6 @@
 				</li>
 			</ul>
 		</div>
-	</div>
+	</footer>
 </body>
 </html>
